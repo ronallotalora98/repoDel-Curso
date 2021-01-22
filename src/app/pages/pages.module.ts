@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ComponentesModule } from '../componentes/componentes.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -19,6 +20,7 @@ import { ComponentesModule } from '../componentes/componentes.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -33,6 +35,7 @@ import { ComponentesModule } from '../componentes/componentes.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
