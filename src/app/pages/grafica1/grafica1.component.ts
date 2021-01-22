@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class Grafica1Component implements OnInit {
+export class Grafica1Component {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+ labels1 = ['Pan', 'Gaseosa', 'Tacos'];
+ data1 = [
+  [15, 20, 30],
+];
 
 }
